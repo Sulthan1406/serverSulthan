@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 1 - Pengenalan VPS & Cloud</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 30px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1150px;
+            margin: auto;
+            background-color: white;
+            padding: 35px 40px;
+        }
+
+        h1 {
+            color: #ff9800;
+            font-size: 30px;
+            margin-top: 0;
+            border-bottom: 2px solid #dce3ed;
+            padding-bottom: 12px;
+        }
+
+        .identitas {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        .instruksi {
+            font-size: 21px;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .card {
+            border: 2px solid #dce3ed;
+            border-top: 6px solid #263142;
+            padding: 22px 20px;
+            min-height: 180px;
+        }
+
+        .card h2 {
+            font-size: 23px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Fase 1: Pengenalan Konsep VPS & Cloud</h1>
+
+        <div class="identitas">
+            <strong>Nama:</strong> Sulthan Hifdzu<br>
+            <strong>Kelas:</strong> XI RPL 1
+        </div>
+
+        <p class="instruksi">
+            Jelaskan secara singkat pemahaman Anda mengenai
+            perbedaan layanan berikut dengan mengisi kotak
+            yang tersedia.
+        </p>
+
+        <div class="grid">
+
+            <div class="card">
+                <h2>Shared Hosting</h2>
+                <p>
+                    Layanan hosting yang menggunakan satu server
+                    secara bersama-sama dengan banyak pengguna.
+                    Biayanya murah dan cocok untuk website kecil.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Dedicated Server</h2>
+                <p>
+                    Server fisik yang digunakan secara khusus
+                    oleh satu pengguna. Memiliki performa tinggi,
+                    kontrol penuh, dan sumber daya lebih besar.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Amazon Lightsail</h2>
+                <p>
+                    Layanan cloud dari AWS yang menyediakan VPS
+                    dengan konfigurasi sederhana dan harga
+                    yang mudah diprediksi, cocok untuk pemula.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Amazon EC2</h2>
+                <p>
+                    Layanan komputasi cloud dari AWS yang
+                    menyediakan server virtual dengan spesifikasi
+                    fleksibel dan dapat disesuaikan kebutuhan.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Dibuat oleh Sulthan Hifdzu | XI RPL 1
+        </div>
+
+    </div>
+
+</body>
+</html>
